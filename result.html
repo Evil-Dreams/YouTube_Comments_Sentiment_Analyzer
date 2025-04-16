@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sentiment Results</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Sentiment Analysis Summary</h2>
+        <div class="summary">
+            <div class="sentiment-box positive"><strong>Positive:</strong> {{ summary.get('Positive', 0) }}</div>
+            <div class="sentiment-box neutral"><strong>Neutral:</strong> {{ summary.get('Neutral', 0) }}</div>
+            <div class="sentiment-box negative"><strong>Negative:</strong> {{ summary.get('Negative', 0) }}</div>
+        </div>
+
+        <h3>Top Comments</h3>
+        <div class="comments">
+            {% for comment in comments %}
+                <div class="comment {{ comment.sentiment | lower }}">
+                    <strong>{{ comment.sentiment }}:</strong> {{ comment.text }}
+                </div>
+            {% endfor %}
+        </div>
+
+        <a href="/" class="back-btn">Analyze Another</a>
+    </div>
+</body>
+</html>
