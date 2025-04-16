@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YouTube Sentiment Analyzer</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>YouTube Sentiment Analyzer</h1>
+        <form method="post" action="/analyze">
+            <label for="video_url">Enter YouTube Video URL:</label>
+            <input type="text" name="video_url" id="video_url" required placeholder="https://www.youtube.com/watch?v=..." />
+            <button type="submit">Analyze</button>
+        </form>
+    </div>
+</body>
+</html>
