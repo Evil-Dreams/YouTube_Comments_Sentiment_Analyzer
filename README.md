@@ -1,10 +1,10 @@
-# 🎬 YouTube Comments Sentiment Analyzer
+# YouTube Comments Sentiment Analyzer
 
 A Flask-based web application that extracts comments from a YouTube video and analyzes their sentiment (Positive, Neutral, Negative) using Natural Language Processing.
 
 ---
 
-## 🚀 Features
+## Features
 
 - 🔗 Input a YouTube video URL
 - 💬 Extract top-level comments using the YouTube Data API
@@ -15,7 +15,7 @@ A Flask-based web application that extracts comments from a YouTube video and an
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: HTML, CSS (Vanilla)
 - **Backend**: Python, Flask
@@ -25,9 +25,10 @@ A Flask-based web application that extracts comments from a YouTube video and an
 
 ---
 
-## 📦 Installation
+## Installation
 
 1. **Clone the repository**
    ```bash
    git clone https://github.com/Evil-Dreams/youtube_comments_sentiment_analyzer.git
+
    cd youtube_comments_sentiment_analyzer
