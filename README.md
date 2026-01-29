@@ -6,12 +6,12 @@ A Flask-based web application that extracts comments from a YouTube video and an
 
 ## Features
 
-- 🔗 Input a YouTube video URL
-- 💬 Extract top-level comments using the YouTube Data API
-- 🧠 Perform sentiment analysis using TextBlob
-- 📊 Display a sentiment summary with counts
-- 👁️ View individual comments labeled with sentiment
-- 🌐 Simple web UI using HTML and CSS
+- Input a YouTube video URL
+- Extract top-level comments using the YouTube Data API
+- Perform sentiment analysis using TextBlob
+- Display a sentiment summary with counts
+- View individual comments labeled with sentiment
+- Simple web UI using HTML and CSS
 
 ---
 
@@ -32,3 +32,4 @@ A Flask-based web application that extracts comments from a YouTube video and an
    git clone https://github.com/Evil-Dreams/youtube_comments_sentiment_analyzer.git
 
    cd youtube_comments_sentiment_analyzer
+
